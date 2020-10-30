@@ -11,7 +11,8 @@ Zunächst verwenden wir "thrinket" von Thonny, um Python zu schreiben. Einige vo
 Dann installieren wir Folium Request, importieren *get*, *json*, *foilum*, *os*, *webbrowser* und *html*.
 
 Hier wird die Anforderung verwendet, um JSON-Daten aus der Datenbank abzurufen. *JSON* ist zur Verarbeitung von JSON-Daten bedient. *Folium* ist ein Tool zur Visualisierung von Daten auf Karten in Python.
-Verwenden wir die URL mit der verfügbaren API, um JSON-Daten abzurufen.
+
+Verwenden wir die URL mit der verfügbaren API, um JSON-Daten abzurufen:
 ```stations=get(url).json()```
 
 Endlich in der Shell werden wir sehen:
